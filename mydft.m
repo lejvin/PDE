@@ -7,7 +7,7 @@ n = j'; % column vector containing indexes, needed to use matrix multiplication 
 omega = exp (2*pi*1i/N); % here i is the imaginary unit
 
 
-z = (1/N) .* omega.^(-n*j)*y'; 
+z = (1/N) .* y*omega.^(-n*j); 
 
 
 
