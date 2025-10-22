@@ -9,5 +9,6 @@ omega = exp (2*pi*1i/N); % here i is the imaginary unit
 
 y = z*omega.^(n*j); 
 
+%test
 
 
