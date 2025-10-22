@@ -12,7 +12,3 @@ a0 = z(1);
 
 a = c + conj(c);
 b = 1i * (c - conj(c));
-
-subtract = mod(N+1,2);
-a = [a flip(a(1:end-subtract))];
-b = [b flip(b(1:end-subtract))];
