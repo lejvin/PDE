@@ -45,8 +45,9 @@ clear all;
 close all;
 clc;
 
-
-fid = fopen('filtre.data','r'); % open filtre.data
+% I moved the file into the root directory so i changed this path to point
+% to that file relatively.
+fid = fopen('../filtre.data','r'); % open filtre.data
 Y = fscanf(fid,'%f',[1 inf]); % read filtre.data
 fclose(fid);
 %figure(), plot(Y) % plot filtre.data
