@@ -4,7 +4,7 @@ close all
 
 
 N=2^10;
-x = 2*pi*(0:N-1)/N; %%VARFÖR inte från 1 till N`?????
+x = 2*pi*(0:N-1)/N; 
 h = hfun(x);
  
 %% 
@@ -46,3 +46,19 @@ end
 
 figure()
 plot(M,E,M,Eh)
+
+
+function h = hfun(x)
+%H Summary of this function goes here
+%   Detailed explanation goes here
+
+rest = mod(x,2*pi);
+
+%Preallocate
+h = zeros(1,length(x));
+
+h(rest > 0 & rest < pi) = 1;
+h(rest > pi & rest < 2*pi) = -1;
+
+end
+
