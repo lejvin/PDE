@@ -7,7 +7,7 @@ clear
 y1 = [8 12 -4 4]
 z1 = mydft(y1)
 
-myidft(z1)
+isequal(round(myidft(z1)),round(y1)) % Should always return true!
 
 
 %% Results to include in report
