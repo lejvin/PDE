@@ -8,7 +8,7 @@ function [a0,a,b] = myfouriercoeff(z)
 
 N = length(z);% Compute the length of vector z
 
-% remove ﬁrst element z(1) from z-vector and pick out the first half
+% remove first element z(1) from z-vector and pick out the first half
 % of the z-vector (excluding the first 0 frequency, so from 2 to
 % N/2+1) since it is complex symmetric. i.e. c_n = conj(c_(N-n)). Also
 % take the floor to make it work for odd lengths for the input vector.
