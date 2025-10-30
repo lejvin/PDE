@@ -1,6 +1,5 @@
 function Y = partialfourier(M,a0,a,b,t)
-%UNTITLED Compute the partial fourier for task 3
-%   Detailed explanation goes here
+%PARTIARFOURIER Compute the partial fourier for task 3
 
 Y=a0;
 if mod(M,1)==0 && M>0
