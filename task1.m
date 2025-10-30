@@ -1,6 +1,7 @@
 % Task 1
 % Create mydft.m and myidft.m and and use them.
 clear
+close all
 
 %% Test of functions
 
