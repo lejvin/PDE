@@ -4,7 +4,7 @@ close all
 % Find, by inspection, the exact Fourier series 
 % coefficients ai and bi of the 2*pi-periodic function
 
-%f(x) = 3 − 2 cos(15x) + 4 sin(20x).
+%f(x) = 3 - 2 cos(15x) + 4 sin(20x)
 
 %a_0 = 3
 %a_15 = -2
