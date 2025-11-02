@@ -8,7 +8,7 @@ if mod(M,1)==0 && M>0
     end
     
 else
-    error("M is not an integer")
+    error('M is not an integer')
 end
 
 

@@ -11,7 +11,7 @@ h = hfun(x); % Defined at the bottom of this file
 z = mydft(h);
 [a0,a,b] = myfouriercoeff(z);
 
-% Above you have computed the Fourier coeﬃcients a0 , an , and bn of h(x)
+% Above you have computed the Fourier coefficients a0 , an , and bn of h(x)
 t = linspace(0,2*pi,5000); %
 y3=a0;
 y5=a0;

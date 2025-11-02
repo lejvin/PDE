@@ -57,9 +57,9 @@ a_g = a_g(2:2:end);
 a0exact = 2/pi;
 aexact = (-4*(-1).^(1:N_g/4))./(pi*(4*(1:N_g/4).^2 -1 ));
 figure()
-stem([a0_g a_g],'*')% plot computed Fourier cosine coeﬃcients
+stem([a0_g a_g],'*')% plot computed Fourier cosine coefficients
 hold on
-stem([a0exact aexact],'or')% plot exact Fourier cosine coeﬃcients
+stem([a0exact aexact],'or')% plot exact Fourier cosine coefficients
 xlim([1 10])
 hold on
 xlabel('n'); ylabel('Fourier cosine coefficients an ');
